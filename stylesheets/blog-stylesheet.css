@@ -1,0 +1,66 @@
+body{
+    background-color: white;
+    font-family: arial;
+}
+
+#container{
+   width: 70%;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+
+#header {
+    width: 100%;
+}
+
+#title {
+    font-size: 30px;
+    color: #087F83;
+    float: left;
+}
+
+#oneLiner {
+    font-size: 18px;
+    font-style: italic;
+    color: #580378;
+    float: left;
+    width: 100%;
+}
+
+#date {
+    font-size: 12px;
+    float: left;
+    width: 100%;
+}
+
+#categories {
+    font-size: 22px;
+    float: right;
+}
+
+#blogPost {
+    clear: both;
+    font-size: 18px
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+#blogPost p {
+    text-indent: 50px;
+    text-align: justify;
+}
+
+#blogPost img {
+    width: 100%;
+    overflow: hidden;
+}
+#tags {
+    font-size: 14px;
+    font-style: bold;
+}
+#tags p {
+    font-size: 12px;
+    font-style: italic;
+}
