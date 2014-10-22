@@ -1,0 +1,144 @@
+body {
+  background: white;
+  font-family: Lato;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #098083;
+}
+
+a:active {
+  color: #3F9C0B;
+  text-decoration-style: double;
+}
+
+
+/*HEADER ELEMENTS*/
+
+#topContainer {
+  position: fixed;
+  background: white;
+  width: 100%;
+  border-top: 40px white;
+}
+
+#logobox {
+  float: left;
+  display: inline-block;
+  /* border: 10px white; */
+  width: 25%;
+  position: fixed;
+}
+
+#logobox img {
+  width: 200px;
+}
+
+#topNav {
+  font-family: Ostrich Sans inline;
+  float: right;
+  display: inline-block;
+  width: 80%;
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-top-right-radius: 10px;
+  margin-right: 25px;
+  padding: 10px 20px 40px 0px;
+  font-size: 12px;
+  text-align: right;
+}
+
+#topNav a {
+  font-size: 60px;
+  font-style: normal;
+  text-align: initial;
+  padding: 7px;
+}
+
+#topNav h1 {
+  color: #6D2B41;
+}
+
+/* Mid Section container elements*/
+
+#midContainer {
+  width: 100%;
+  padding-top: 250px;
+  }
+
+#leftSidebar {
+    border-right: 5px solid black;
+    width: 160px;
+    text-align: right;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+#leftSidebar h3 {
+    font-family: ostrich sans inline;
+    color: #6D2B41;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+#mainSpace {
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+    width: 65%;
+    display: inline-block;
+}
+
+#quoteSpace {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    font-style: italic;
+    color: #3f9c0b;
+}
+
+/*bottom Container Elements*/
+
+#bottomContainer {
+    background: white;
+    width: 100%;
+}
+
+#socialButtons {
+    width: 45%;
+    display: inline-block;
+    font-size: 12px;
+    font-family: Ostrich Sans inline;
+}
+
+#socialButtons img {
+  width: 50px;
+  text-color: #3f9c0b;
+}
+
+#aboutMeBlurb {
+  width: 30%;
+  display: inline-block;
+  text-align: right;
+  font-family: Ostrich Sans inline;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+#aboutMeBlurb span {
+  color: #6D2B41;
+}
+
+#karaPhoto {
+  display: inline-block;
+  width: 15%;
+}
+
+#karaPhoto img {
+  width: 300px;
+}

@@ -1,40 +1,37 @@
-body{
-    background-color: white;
-    font-family: arial;
-}
 
-#container{
+
+#blogContainer{
    width: 70%;
    margin-right: auto;
    margin-left: auto;
 }
 
 
-#header {
+#blogHeader {
     width: 100%;
 }
 
-#title {
+#blogTitle {
     font-size: 30px;
-    color: #087F83;
+    color: #6D2B41;
     float: left;
 }
 
 #oneLiner {
     font-size: 18px;
     font-style: italic;
-    color: #580378;
+    color: #3F9C0B;
     float: left;
     width: 100%;
 }
 
-#date {
+#blogDate {
     font-size: 12px;
     float: left;
     width: 100%;
 }
 
-#categories {
+#blogCategories {
     font-size: 22px;
     float: right;
 }
