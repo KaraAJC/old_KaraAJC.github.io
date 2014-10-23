@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+     <head>
+          <title>Git It Gurl Blog</title>
+
+          <link rel="stylesheet" type="text/css" href="../stylesheets/mainstylesheet.css"/>
+
+          <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+          <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css"/>
+     </head>
+
+     <body>
+          <div id="topContainer">
+               <div id="logobox">
+                    <a href="index.html"><img src="../stylesheets/assets/gititgurlLogo.png"></img></a>
+               </div>
+
+               <div id="topNav">
+                    <h1 id="slogan"> #Winning at Nerdery, DevBootcamp Phase Zero and Beyond!</h1>
+
+                    <a class="nav" href="../about.html">About</a>
+                    <a class="nav" href="index.html">Blog</a>
+                    <a class="nav" href="../projects.html">Projects</a>
+                    <a class="nav" href="../support.html">Support</a>
+                    <a class="nav" href="../contact.html">Contact</a>
+               </div>
+          </div>
+
+          <div id="midContainer">
+               <div id="leftSidebar">
+                    <h3>Blog Posts</h3>
+
+                    <ul>
+                         <li> <a href="new-c1-chefs-kitchen.html">Living in the Kitchen</a></li>
+                         <li> <a href="new-t1-git-blog.html">Git It, Girl!</a></li>
+                         <li> <a href="t2-css-design.html">The Kara Element</a></li>
+
+                    </ul>
+               </div>
+
+               <div id="mainSpace">
+                    <div id="blogContainer">
+                        <div id="blogHeader">
+                            <div id="blogTitle">
+                                The Kara Element
+                            </div>
+
+                            <div id="blogCategories">
+                                Technical Blog Post
+                            </div>
+                            <div id="oneLiner">
+                                Padding, Borders and Margins; Kara Models the Box Model
+                            </div>
+
+                            <div id="blogDate">
+                                October 23, 2014
+                            </div>
+
+                            <div id="blogPost">
+                                <p>Friends: I'm finishing up Dev Bootcamp, Phase Zero, Week Two, and I have to say, It got me. It got me good.</p>
+                                <p>But during the time I took completing the challenges for Week Two, I learned SO much about HTML and CSS, that I got this pretty lil' website to show for it!</P>
+
+                                <p>Today, I want to show you all a few things I learned about HTML and CSS; Things that help many of the websites you love look as beautiful as they do, and keep others from getting there. This post is going to be about a foundational concept you need when you think about websites. It's called the Box Model. And though beauty is in the eye of the beholder, this model helps you understand the parameters you can declare to digitally express yourself in any way you'd like, and if you know me and my nerdy, feminist, body-positive ideals, you know I'm loving that!</p>
+
+                                <p><a href="http://css-tricks.com/the-css-box-model/">The Box Model</a> is a concept that web developers and designers use to determine how they want the elements that they create to look and interact with eachother. It basically states that all elements are boxes. What I've done here is decide to explain the Box Model using my lovely self, in Bitstrip form, as a model.</p>
+
+                                <img src="../stylesheets/assets/BoxModelHeader.jpg" />
+                                <p>Meet the Kara Element. She's got a tasty drink in her hand (it could be wine, or it could be agua de tamarindo, you decide!), she's feelin' awesome, lookin' good, and her aura is drawing you in with an inviting red glow... looks like she's ready to explain the Box Model! </p>
+
+                                <p>Starting from the content, the element is wrapped in boxes called <b>Padding, Border</b> and <b>Margin.</b> Here's an explanation of what each of these boxes do:</p>
+
+                                <img src="../stylesheets/assets/BoxModelexplained.jpg" />
+
+                                <ol>
+                                    <li><h3>Content:</h3>This is the stuff you're putting inside your element. whether that be a delicious drink, like Kara's having, or some real-talk nformation about how to be a better person, it all counts as content!</li>
+
+                                    <li><h3>Padding:</h3>This is the space around your content that keeps it nice and snug, like the divine thickness of kara's panza that the drink (or content) is sitting inside of. you can have a lot or a little padding, its all your preference! Note: the padding is typically transparent. But as you can see with the Kara Element, her padding is a sporting a lovely shade of brown.</li>
+
+                                    <li><h3>Border:</h3>This is the snazzy part that shows everyone where your element starts and ends. Kara's wearing an always in seasonV-neck dress and cardigan border! You can have dotted, double lined, dashed, solid borders, thick or thin, all colors, whatever your choice!</li>
+
+                                    <li><h3>Margin:</h3>This is the space around your element that tells other elements how much space it needs before it gets squished.Think of it like personal space, if you like being snug, or at arms-length, the margin declares it! In the previous picture, Kara's personal space margin was displayed in red.</li>
+                                </ol>
+
+                                <h3>To summarize this:</h3>
+                                <img src="../stylesheets/assets/BoxModelSummary.jpg" />
+
+                                <p>Once you decide what kind of content you'd like your element to have, and you write all that out in HTML, you can decide how you want the boxes to wrap around so it creates an element that looks as awesome as your content is, in CSS!</p>
+
+                                <h3>So, If I were to write specs for a Kara Element, what would it have?</h3>
+                                <img src="../stylesheets/assets/BoxModelCoding.jpg" />
+
+                                <ol>
+                                    <li><h3>Content:</h3>The Kara Element has all kinds of amazing and nerdy content, and stylistically, will always express that content in the most enthusiastic way. (try counting how many exclamation marks I've used so far...!) In the HTML Translation, I created what's called a DIV tag, and gave it an ID of "kara" to name my element. It's between these DIV tags that I put my content. (and peeps, learning to code, it really is awesome.)</li>
+
+                                    <li><h3>Padding:</h3>The Kara element is all about the thickness! So you see in the CSS Translation, the PADDING has been set to 100px (short for pixels), which is pretty darn thick! changing the px up or down will determine how far away the content is from the border of the element.</li>
+
+                                    <li><h3>Border:</h3>Speaking of border, the Kara Element has style for days! She wants a trim that truly shows how creative and colorful she is, so in the CSS translation you see two declarations: BORDER and BORDER-RADIUS. Border has already been explained, but as I described in my specs, I like Curvy borders, so BORDER-RADIUS lets you round-out the edges of the elements border.You can also note in the BORDER declaration, I used 10px width and RAINBOW as my border type. Back in the day, CSS only recognized solid, dashed, dotted, double lined, and you could make these old-school 3D-looking beveled borders. But now with CSS3, my rainbow border dreams can come true by using a BORDER-IMAGE declaration! I can even drop a shadow in there and make it look like magic!</li>
+
+                                    <li><h3>Margin:</h3>With all this creative and positive energy, what other element WOULD'NT want to be next to the Kara Element!? So to let people get snug, but still have room for autonomy, I set the MARGIN declaration in CSS Translation to 2px. Snug indeed!</li>
+                                </ol>
+                                <hr><br>
+                                <p>So there you have it, everyone! the Box Model explained by Kara, the 'Box Model' Model. I hope this helped you all gain a little more understanding of websites, CSS, HTML, and about your dear friend over here, Git'in her education on at Dev Bootcamp.</p>
+                                <p>I'm curious, What would YOUR element Specs look like? What kind of CONTENT do you hold inside your PADDING? What style are your BORDERs, and what's a comfortable MARGIN setting for you?<i> use #MyElementStyleis hashtag to share it with me!!</i>
+
+                                <h3>EXTRA CREDIT if you code it out, and take a photo!</h3>
+
+
+                            </div>
+
+                            <div id="tags">Tags
+                                <p>Body-positive, Feminism, Box-Model, CSS, HTML, Bitstrips, #MyElementStyleis</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+               <div id="quoteSpace">
+                    <p>Have you seen my WOOOOOOT Wall? <a href="https://www.facebook.com/YSPignitechlab">Check it out!</a></p>
+               </div>
+          </div>
+
+          <div id="bottomContainer">
+               <div id="socialButtons">
+                    <a href="http://www.twitter.com/karaAJC"><img src="../stylesheets/assets/new-twitter-bird.png" />Tweet</a>
+                    <a href="http://www.about.me/karaAJC"><img src="../stylesheets/assets/099089-glossy-black-3d-button-icon-social-media-logos-favorites-square.png" />Like</a>
+                    <a href="http://plus.google.com/+KaraCarrell/about/p/pub"><img src="../stylesheets/assets/googleplus.png" />Plus</a>
+                    <a href="http://www.linkedin.com/in/karaajc"><img src="../stylesheets/assets/099107-glossy-black-3d-button-icon-social-media-logos-linkedin-logo-square2.png" />Link</a>
+                    <a href="mailto:KaraAJC@Gmail.com"><img src="../stylesheets/assets/099110-glossy-black-3d-button-icon-social-media-logos-mail.png" />Email</a>
+                    <a href="tel:7733828220"><img src="../stylesheets/assets/080364-glossy-black-3d-button-icon-business-phone-solid.png" />Call</a>
+               </div>
+
+               <div id="aboutMeBlurb">
+                    <p>Hi, I'm <span>Kara Carrell<span></p>
+                    <p>Idea Fox, Activist, Dev Bootcamp Ninja, and QPOC Cutie! Welcome to my site!</p>
+               </div>
+
+               <div id="karaPhoto">
+                    <img src="../stylesheets/assets/Karacornerphoto.png" />
+               </div>
+
+          </div>
+     </body>
+</html>
