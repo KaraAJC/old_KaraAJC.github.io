@@ -4,12 +4,12 @@ body {
 }
 
 a {
-  color: black;
+  color: #098083;
 }
 
 a:hover {
   text-decoration: none;
-  color: #098083;
+  color: #3F9C0B;
 }
 
 a:active {
@@ -75,6 +75,7 @@ a:active {
     border-right: 5px solid black;
     width: 160px;
     text-align: right;
+    vertical-align: top;
     padding-right: 10px;
     display: inline-block;
 }
@@ -84,6 +85,12 @@ a:active {
     color: #6D2B41;
     font-size: 30px;
     margin-top: 0px;
+
+}
+
+#leftSidebar li {
+  list-style-image: url('assets/grassflowericon.png');
+
 }
 
 #mainSpace {

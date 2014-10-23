@@ -1,7 +1,7 @@
 
 
 #blogContainer{
-   width: 70%;
+   width: 90%;
    margin-right: auto;
    margin-left: auto;
 }
@@ -12,7 +12,7 @@
 }
 
 #blogTitle {
-    font-size: 30px;
+    font-size: 40px;
     color: #6D2B41;
     float: left;
 }
@@ -34,6 +34,7 @@
 #blogCategories {
     font-size: 22px;
     float: right;
+    color: #098083;
 }
 
 #blogPost {
@@ -60,4 +61,5 @@
 #tags p {
     font-size: 12px;
     font-style: italic;
+    color: #098083;
 }
