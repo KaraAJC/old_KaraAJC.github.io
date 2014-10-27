@@ -30,7 +30,6 @@ a:active {
 #logobox {
   float: left;
   display: inline-block;
-  /* border: 10px white; */
   width: 25%;
   position: fixed;
 }
@@ -114,10 +113,13 @@ a:active {
 #bottomContainer {
     background: white;
     width: 100%;
+    position: fixed;
+    bottom: 0;
+    clear: both;
 }
 
 #socialButtons {
-    width: 45%;
+    width: 42%;
     display: inline-block;
     font-size: 12px;
     font-family: Ostrich Sans inline;
@@ -129,7 +131,7 @@ a:active {
 }
 
 #aboutMeBlurb {
-  width: 30%;
+  width: 39%;
   display: inline-block;
   text-align: right;
   font-family: Ostrich Sans inline;
@@ -144,8 +146,9 @@ a:active {
 #karaPhoto {
   display: inline-block;
   width: 15%;
+  float: right;
 }
 
 #karaPhoto img {
-  width: 300px;
+  width: 225px;
 }
