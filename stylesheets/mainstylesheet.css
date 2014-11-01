@@ -1,6 +1,8 @@
+@font-face { font-family: Ostrich Sans Inline; src: url('../stylesheets/assets/ostrich-sans-inline/ostrich_Sans_inline-regular.otf');
+
 body {
   background: white;
-  font-family: Lato;
+  font-family: "Lato";
 }
 
 a {
