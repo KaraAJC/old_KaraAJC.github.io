@@ -41,6 +41,7 @@
                          <li> <a href="t4-enumerable-methods.html">the Cycle Method</a></li>
                          <li> <a href="c4-tech-issues.html">Git up, Stand up!</a></li>
 
+
                     </ul>
                </div>
 
@@ -48,37 +49,38 @@
                     <div id="blogContainer">
                         <div id="blogHeader">
                             <div id="blogTitle">
-                                Brain Flex Zone
+                                The Cycle Method
                             </div>
 
                             <div id="blogCategories">
-                                Cultural Blog Post
+                                Technical Blog Post
                             </div>
                             <div id="oneLiner">
-                                How my Thinking and Learning Styles help my brain stay flexed
+                                Understandng the Cycle Enumerable method in Ruby
                             </div>
 
                             <div id="blogDate">
-                                October 26, 2014
+                                November 2, 2014
                             </div>
 
                             <div id="blogPost">
-                              <p>Happen to know what your Learning style is? What about your Thinking style? As we close on Unit 1 of Phase Zero at Dev Bootcamp, I reflect on how these styles have helped me get to this point, and what actions I can take, knowing my strengths and weaknesses within these styles, to successfully tackle the next unit of work. </p>
-                              <p>When I took the <a href="http://www.vark-learn.com/english/page.asp?p=questionnaire">VARK learning style test</a>, the results indicated that I have a multimodal learning style, between Kinestetic, and Visual. In other words, I use my hands and my eyes to learn. I can attest to this in how hands-on I've preferred to be in learning HTML and CSS so far, and my need for visualization of the concepts we've learned so far. </p>
-                              <p>In looking at the Thinking Styles, My results from the <a href="http://www.thelearningweb.net/personalthink.html">"Mind Style Model"</a> Assessment returned a primary connection to the "Abstract Random" style which, according to Anthony Gregorc, is a person who learns best in a personalized environment, being able to listen to others, and work on group activities. I have definitely seen this come through in how much I prefer working in pairs on challenges, and enjoy the individuality of the work we are doing at DBC. <p>
-                              <p>Ways that I can continue to use my knowledge about being a Visual/Kinesthetic learner, and an Abstract/Random, thinker, are:
-                                <ul>
-                                  <li>Understand that though it may be difficult for me to focus on one thing at a time, using visual triggers to guide me back to the tasks needing to be complete can help keep me on track.</li>
-                                  <li>Create more visual representations of what I've learned so far, for my reference</li>
-                                  <li>Taking time to stop and create a use case for programs that I'm stuck on, with the assitance of someone who can talk me through it and allow for soundboarding along the way</li>
-                                </ul>
-
-                              <p>Equipping myself with strategies for how I can circumvent weaknesses and boost my strengths around what works best for my learning and thinking styles, will allow me to grow my knowledge and thrive in Unit 2.
+                                <h3>On today's episode of Git it Gurl: the nerdy adventures of Kara Carrell; we're learning about the Cycle Method.</h3>
+                                <h5>Huh? Method? What's that??</h5>
+                                <p>Let's step back and get some background info. In the Ruby programming language, everything is an object. when you want to do something to the object, you can use a "method" to do it. there are lots of methods that are defined in Ruby for anyone to use, and one of them is called the Cycle method. </p>
+                                <p>the Cycle method is part of the enumerable methods, which allows you to use this method on Arrays and Hashes alike!. The way you call the Cycle method is to stick it onto an established array or hash, and give it a number of times you'd like the object to cycle through all it's elements. For example:</p>
+                                <h3> carrell_family = ["Carl Jr.", "Karla", "Kara", "Margie", "Carl Sr."]
+                                  => Creates a new array of names as strings
+                                  carrell_family.cycle(3) {|name| puts name}
+                                  => Calls the cycle method to run each name and put it line by line until you have cycled through the list of names 3 times. </h3>
+                                <h5>Why would I want to use this??</h5>
+                                <p>If I wanted to assign each person in my family a chore, for example, I could call Cycle to help run the list of family names and assign it an accompanying chore from another array, and make a chore chart hash.</p>
+                                <p> When you utilize other related methods like .next or .rewind, you can do some pretty cool stuff. Check out <a href="http://www.globalnerdy.com/2008/07/06/enumerating-enumerable-enumerablecycle/">this guy's</a> super nerdy examples of how you can use .cycle. </p>
+                                <p> This concludes another episode of Git it Gurl: the nerdy adventures of Kara Carrell. Stay tuned for next week, as we get more in-depth with the wonderful world of Ruby!</p>
 
                             </div>
 
                             <div id="tags">Tags
-                                <p>Growth Mindset, fixed mindset, carol dwek, VARK, multi-modal, learning styles, #DBCThinkStyle </p>
+                                <p>array, hash, Ruby, nerdlife, gititgurl, #DBCRuby </p>
                          </div>
                     </div>
                </div>
