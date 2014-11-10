@@ -50,9 +50,15 @@
     text-align: justify;
 }
 
+
 #blogPost img {
     width: 100%;
     overflow: hidden;
+}
+
+#blogPost h4 {
+   font-style: italic;
+    color: #6D2B41;
 }
 #tags {
     font-size: 14px;

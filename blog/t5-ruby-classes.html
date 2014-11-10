@@ -66,9 +66,56 @@
                             </div>
 
                             <div id="blogPost">
-                                <h3>Everyone, meet Sadie. Sadie is the most loveable dog on the entire planet, and is going to help me explain what Ruby Classes are to you! </h3>
+                                <h3>Everyone, meet Sadie. <img src="../stylesheets/assets/sadieSelfie.jpg"sadie image/> Sadie is the most loveable dog on the entire planet, and is going to help me explain what Ruby Classes are to you! </h3>
 
-                                <p>In Ruby, A class is defined as a set of </p>
+                                <p>A Class helps you define a set of methods that can be called using objects created under that class. If you consider Sadie in this case, She is a Dog. Sadie would be considered an object under the "Dog" class. For future reference, it's good to note that Sadie is also a Mammal, an Animal, and a Living Creature, so if you made a chart of all these, you'd see that there are characteristics that sadie is inheriting because she's a part of all these classes above the Dog class.</p>
+                                <p>So back to the Dog Class. Dogs all have particular characteristics, and they can do things that, for the most part, only dogs are called to do. For Example:
+                                <li>
+                                  <ul>Dogs can Bark</ul>
+                                  <ul>Dogs can Fetch</ul>
+                                  <ul>Dogs can Downward-Facing Dog-Stretch</ul>
+                                </li>
+                                In Ruby, each of these actions would be created as Methods you can call on, or command on any object within the Dog Class. i.e.
+                                  class Dog
+                                    def initialize
+                                      @doggie_name = doggie_name
+                                    end
+
+                                    def bark
+                                      puts "woof woof"
+                                    end
+
+                                    def fetch(item)
+                                      puts "runs after +item+"
+                                      puts "brings back +item+"
+                                    end
+
+                                    def stretch
+                                      puts "AAANNNDDD STREETTCHHHHHHH"
+                                    end
+
+                                Just like we use commands in real-life, you can command your doggie to take an action (hopefully you've worked with your doggie to comply!) In Ruby this would look like:
+
+                                sadie = Dog.new
+                                sadie.bark
+                                <img src="../stylesheets/assets/sadieBark.jpg" />
+
+                                sadie.fetch
+                                <img.src="../stylesheets/assets/sadieFetch.jpg" />
+
+                                sadie.stretch
+                                <img src="../stylesheets/assets/sadieStretch.jpg" />
+
+                                Awesome, Right?
+                                But, what if you asked your pet kitteh to do these things?
+
+                                kitteh.bark
+                                kitteh.fetch
+                                kitteh.roll_over
+
+                                Ruby will reply with, <i>umm what? NoMethod Error!</i> Why? because you're trying to use the Dog class methods OUTSIDE of the Dog Class! kitteh is NOT a dog, so they can't use doggie methods. Sorry, friend.
+
+                              </p>
 
                             </div>
 
