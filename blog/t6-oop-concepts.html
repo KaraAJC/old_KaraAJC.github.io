@@ -46,6 +46,11 @@
                          <li> <a href="t6-oop-concepts.html">Battle One: Object-Oriented vs. Functional Programming</a></li>
                          <li> <a href="c7-values.html">The GitItGurl Judo Chop!</a></li>
                          <li> <a href="t7-JavaScript.html">Battle Two: Ruby Vs Javascript</a></li>
+                         <li> <a href="c6-stereotype-threat.html">Don't be THAT girl</a></li>
+                         <li> <a href="t6-oop-concepts.html">Battle One: Object-Oriented vs. Functional Programming</a></li>
+                         <li> <a href="c7-values.html">The GitItGurl Judo Chop!</a></li>
+                         <li> <a href="t7-JavaScript.html">Battle Two: Ruby Vs Javascript</a></li>
+
 
                     </ul>
                </div>
@@ -54,48 +59,76 @@
                     <div id="blogContainer">
                         <div id="blogHeader">
                             <div id="blogTitle">
-                                Value & Order: Special Collections Unit
+                                Gettin' CLASSy with Sadie!
                             </div>
 
                             <div id="blogCategories">
                                 Technical Blog Post
                             </div>
                             <div id="oneLiner">
-                                Understanding Hashes and Arrays in Ruby
+                                Understandng Classes in Ruby, starring Sadie: cutest dog on earth
                             </div>
 
                             <div id="blogDate">
-                                October 26, 2014
+                                November 8, 2014
                             </div>
 
                             <div id="blogPost">
-                                <h3> In the Ruby Programming Language, the code is represented by two separate yet equally important collections: the Hash, which pair Keys with Values; and the Array, which orders items from zero. These are their stories.</h3>
-                                <h5>Dun Dun DUN!!</h5>
-                                <p>This week we got into Ruby; a programming language that we will primarily be using during Dev Bootcamp. It's quite a feat to get into, but a lot of the features of the language make sense when you spend time playing around with it.</p>
-                                <p>Two key components we learned were called Hashes and Arrays. These are two very similar, but distinct ways of collecting information using Ruby.This post will go over each, and attempt to clarify why you would use them.</p>
-                                <p>The Array is an ordered index of any type of items (be it an integer, some text, or a number with a period, which in ruby is called a float). It is typically denoted using [brackets] and each item is separated by commas.</p>
-                                  <p>i.e. cool_people = ["aneliesse", "karla", "celso", "kristina", "jessica"]</p>
-                                <p>The Hash is another kind of collection of items that stresses the connection between a key, and it's value. Hashes can also take on any type of item, but it's paired inside {curly brackets} with another item using "=>"</p>
-                                  <p>i.e.  people_i_know = { "aneliesse" => "family", "celso" => "bff", "karla" => "family" , "kristina" => "boo"}</p>
-                                <p>Even though we are collecting information in both, there are instances when an array is better to use than a hash, and vice versa.
-                                <p>Let's say you're a Night club owner, and you were fixin' to be the hottest night spot this side of the Mississippi, so you wanted to build a program to help you out. Perhaps you wanted to make some saturday night specials and you need to collect and use information about your patrons to do so.</p>
-                                <p> You decide you'd like to give the first 50 people in the door on a saturday night a free shot of whiskey! As each person comes through the door, you take their name, and you give them a shot (Don't worry officers, they're all legal drinking age). In Ruby, you'd want to use an ARRAY to collect this information. Why? because:
-                                <ul>
-                                  <li>An Array prioritizes the order in which you enter information. so as you add each person's name to your array, it is counting towards 50. NOTE: in ruby, and in coding in general. when you're counting items in an array, you start with ZERO and go up from there. so the first person that comes in the door is person ZERO, not person ONE.</li>
-                                </ul>
-                                <p>A few weeks go by, and you're realizing  you've got some regulars that are buying their OWN shots! you want to reward them! so you decide your next special will be to give your regulars VIP treatment! Whenever they show up at the club they get their own table, and a dedicated server! Mira Que Fancy!</p>
-                                <p>In ruby, you'd want to use a HASH to collect this information. Why? because:
-                                <ul>
-                                  <li>A Hash doesn't worry about the order your information is put in, only the value you give it. So, your regular <a href="http://www.crlcrrll.com/">"Crl Crrll"</a> comes in, and he's the 9424th person to come in? Doesn't matter, HE'S a VIP and you'll treat him as such! Hash will also let you call the values and give you a list, regardless of where the items are in the Hash.</li>
-                                </ul>
-                                <h3>Starting to make sense?</h3>
-                                <p>To summarize, Hashes and Arrays are wonderful ways to collect and manipulate information within ruby, but knowing what's most important to you, between value and order, will help you decide which path to take.
+                                <h3>Everyone, meet Sadie. <img src="../stylesheets/assets/sadieSelfie.jpg"sadie image/> Sadie is the most loveable dog on the entire planet, and is going to help me explain what Ruby Classes are to you! </h3>
 
+                                <p>A Class helps you define a set of methods that can be called using objects created under that class. If you consider Sadie in this case, She is a Dog. Sadie would be considered an object under the "Dog" class. For future reference, it's good to note that Sadie is also a Mammal, an Animal, and a Living Creature, so if you made a chart of all these, you'd see that there are characteristics that sadie is inheriting because she's a part of all these classes above the Dog class.</p>
+                                <p>So back to the Dog Class. Dogs all have particular characteristics, and they can do things that, for the most part, only dogs are called to do. For Example:
+                                <ul>
+                                  <li>Dogs can Bark</li>
+                                  <li>Dogs can Fetch</li>
+                                  <li>Dogs can Downward-Facing Dog-Stretch</li>
+                                </ul>
+                                In Ruby, each of these actions would be created as Methods you can call on, or command on any object within the Dog Class. i.e.
+                                  <br>class Dog<br>
+                                    def initialize<br>
+                                      @doggie_name = doggie_name<br>
+                                    end<br>
+<br>
+                                    def bark<br>
+                                      puts "woof woof"<br>
+                                    end<br>
+
+                                    def fetch(item)<br>
+                                      puts "runs after +item+"<br>
+                                      puts "brings back +item+"<br>
+                                    end<br>
+
+                                    def stretch<br>
+                                      puts "AAANNNDDD STREETTCHHHHHHH"<br>
+                                    end<br>
+<br>
+                                Just like we use commands in real-life, you can command your doggie to take an action (hopefully you've worked with your doggie to comply!) In Ruby this would look like:
+<br>
+                                sadie = Dog.new<br>
+                                sadie.bark<br>
+                                <img src="../stylesheets/assets/sadieBark.jpg" />
+
+                                sadie.fetch<br>
+                                <img src="../stylesheets/assets/sadieFetch.jpg" />
+
+                                sadie.stretch<br>
+                                <img src="../stylesheets/assets/sadieStretch.jpg" />
+
+                                Awesome, Right?<br>
+                                But, what if you asked your pet kitteh to do these things?
+<br>
+                                kitteh.bark<br>
+                                kitteh.fetch<br>
+                                kitteh.roll_over<br>
+<br>
+                                Ruby will reply with, <i>umm what? NoMethod Error!</i> Why? because you're trying to use the Dog class methods OUTSIDE of the Dog Class! kitteh is NOT a dog, so they can't use doggie methods. Sorry, friend.
+
+                              </p>
 
                             </div>
 
                             <div id="tags">Tags
-                                <p>array, hash, Law & Order, Crl Crrll, cake, Ruby, nerdlife, gititgurl #DBCArrayHash </p>
+                                <p>Class, Sadieface, Ruby, nerdlife, gititgurl, #DBCClass </p>
                          </div>
                     </div>
                </div>
