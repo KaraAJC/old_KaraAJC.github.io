@@ -1,89 +1,330 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Git It Gurl Website">
+    <meta name="author" content="Kara Carrell">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <link rel="shortcut icon" href="/bootstrap/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/bootstrap/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/bootstrap/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
 
-  <head>
-    <title>Git It Gurl Blog</title>
+    <title>Git It Gurl - Home</title>
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/mainstylesheet.css"/>
+	<!-- Bootstrap CSS file -->
+	<link href="lib/bootstrap-3.0.3/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="lib/bootstrap-3.0.3/css/bootstrap-theme.min.css" rel="stylesheet" />
+	<link href="blog.css" rel="stylesheet" />
 
-          <link rel="stylesheet" type="text/css" href="stylesheets/blog-stylesheet.css"/>
+</head>
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-  </head>
+<body>
 
-  <body>
-    <div id="topContainer">
-            <div id="logobox">
-              <a href="blog/index.html"><img src="stylesheets/assets/gititgurlLogo.png"></img></a>
+<div class="navbar-wrapper">
+    <div class="container">
+        <div class="navbar navbar-inverse navbar-static-top">
+            <div class="navbar-header"> <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </a>
+    <a class="navbar-brand" href="#">GIT IT GURL</a>
+
             </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html" class="">Home</a>
 
-            <div id="topNav">
-              <h1 id="slogan"> #Winning at Nerdery, DevBootcamp Phase Zero and Beyond!</h1>
+                    </li>
+                    <li><a href="about.html" class="">About</a>
 
-              <a class="nav" href="about.html">About</a>
-              <a class="nav" href="blog/index.html">Blog</a>
-              <a class="nav" href="projects.html">Projects</a>
-              <a class="nav" href="support.html">Support</a>
-              <a class="nav" href="contact.html">Contact</a>
+                    </li>
+                    <li><a href="index.html#blog_posts" class="">Blog</a>
+
+                    </li>
+                    <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b></a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="OLDsite/projects/gps1-2.html" class="">All About Pairing</a>
+
+                            </li>
+                            <li><a href="OLDsite/projects/IDEcheetsheet.html" class="">Cheat Sheet</a>
+
+                            </li>
+                            <li><a href="#" class="">Javascript Game</a>
+
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="#" class="">Code Example 1</a>
+
+                            </li>
+                            <li><a href="#" class="">Code Example 2</a>
+
+                            </li>
+                </ul>
+                </li>
+                </ul>
+                <li><a href="contact.html" class="navbar-brand nav navbar-right">Contact Kara Carrell</a>
+
+                </li>
             </div>
-          </div>
+        </div>
+    </div>
+    <!-- /container -->
+</div>
+<!-- /navbar wrapper -->
+<!-- Carousel==================================================-->
+<div id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="assets/NEWbanner1.png" style="width:100%" class="img-responsive" contenteditable="false">
+            <div class="container">
+                <div class="carousel-caption">
+                     <h1 class="">Hi, I'm Kara Carrell</h1>
 
-          <div id="midContainer">
-            <div id="leftSidebar">
-              <h3>Blog Posts</h3>
+                  <p class="">Idea Fox, Activist, Dev Bootcamp Ninja, and QPOC Cutie!</p>
+                    <p class=""><a class="btn btn-lg btn-primary" href="about.html">More About Me</a>
 
-              <ul>
-                <li> <a href="blog/new-c1-chefs-kitchen.html">Living in the Kitchen</a></li>
-                         <li> <a href="blog/new-t1-git-blog.html">Git It, Girl!</a></li>
-                         <li> <a href="blog/t2-css-design.html">The Kara Element</a></li>
-                         <li> <a href="blog/t3-arrays-hashes.html">Value & Order: SCU</a></li>
-                         <li> <a href="blog/c3_thinking-style.html">Brain Flex Zone</a></li>
-                         <li> <a href="blog/t4-enumerable-methods.html">the Cycle Method</a></li>
-                         <li> <a href="blog/c4-tech-issues.html">Git up, Stand up!</a></li>
-                         <li> <a href="blog/c5-feedback.html">ASKing to win</a></li>
-                         <li> <a href="blog/t5-ruby-classes.html">Gettin' CLASSy with Sadie!</a></li>
-                         <li> <a href="blog/c6-stereotype-threat.html">Don't be THAT girl</a></li>
-                         <li> <a href="blog/t6-oop-concepts.html">Object-Oriented vs. Functional Programming</a></li>
-                         <li> <a href="blog/c7-values.html">The GitItGurl Judo Chop!</a></li>
-                         <li> <a href="blog/t7-JavaScript.html">Battle Two: Ruby Vs Javascript</a></li>
-                         <li> <a href="blog/c8-conflict.html">Conflict</a></li>
-                         <li> <a href="blog/t8-tech.html">Computer Brains</a></li>
-              </ul>
-            </div>
-
-            <div id="mainSpace">
-              <p>WELCOME!!
-                    <br>
-                    <br>
-                    <br>
-                    <br>
                     </p>
+                </div>
             </div>
+        </div>
+        <div class="item">
+            <img src="assets/NEWbanner2.png" class="img-responsive">
+            <div class="container">
+                <div class="carousel-caption">
+                     <h1 class="">Git It Gurl!</h1>
 
-            <div id="quoteSpace">
-              <p>Know what a Pairing session is? <a href="projects/gps1-2.html">Learn about it!</a></p>
+                    <p class="">Take the journey with me as I navigate my way through code,<br>
+                      and emerge victorious!</p>
+                    <p class=""><a class="btn btn-large btn-primary" href="#blog_posts">Read The Latest</a>
+
+                    </p>
+                </div>
             </div>
-          </div>
+        </div>
+        <div class="item">
+            <img src="assets/NEWbanner3.png" class="img-responsive">
+            <div class="container">
+                <div class="carousel-caption">
+                     <h1 class="">Get Kara to DevBootcamp!</h1>
 
-          <div id="bottomContainer">
-            <div id="socialButtons">
-              <a href="http://www.twitter.com/karaAJC"><img src="stylesheets/assets/new-twitter-bird.png" />Tweet</a>
-              <a href="http://www.about.me/karaAJC"><img src="stylesheets/assets/099089-glossy-black-3d-button-icon-social-media-logos-favorites-square.png" />Like</a>
-              <a href="http://plus.google.com/+KaraCarrell/about/p/pub"><img src="stylesheets/assets/googleplus.png" />Plus</a>
-              <a href="http://www.linkedin.com/in/karaajc"><img src="stylesheets/assets/099107-glossy-black-3d-button-icon-social-media-logos-linkedin-logo-square2.png" />Link</a>
-              <a href="mailto:KaraAJC@Gmail.com"><img src="stylesheets/assets/099110-glossy-black-3d-button-icon-social-media-logos-mail.png" />Email</a>
-              <a href="tel:7733828220"><img src="stylesheets/assets/080364-glossy-black-3d-button-icon-business-phone-solid.png" />Call</a>
+                    <p class="">There's still time to support me in making it through Dev Bootcamp!</p>
+                    <p class=""><a class="btn btn-large btn-primary" href="http://www.gofundme.com/karagoestodevbootcamp">I want to help!</a>
+
+                        </p>
+                </div>
             </div>
+        </div>
+    </div>
+    <!-- Controls --> <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+ <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="icon-next"></span>
+  </a>
+</div>
+<!-- /.carousel -->
+<!-- Marketing messaging and featurettes==================================================-->
+<!-- Wrap the rest of the page in another container to center all the
+content. -->
+<div class="container marketing">
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img class="img-circle" src="http://unicefstories.files.wordpress.com/2014/08/img_20140729_183122.jpg">
+             <h2 class="">All About Pairing</h2>
 
-            <div id="aboutMeBlurb">
-              <p>Hi, I'm <span>Kara Carrell<span></p>
-              <p>Idea Fox, Activist, Dev Bootcamp Ninja, and QPOC Cutie! Welcome to my site!</p>
-            </div>
+            <p class="">My first project at DBC was creating a site about what Pair programming is...</p>
+            <p class=""><a class="btn btn-default" href="#">Take A Look »</a>
 
-            <div id="karaPhoto">
-              <img src="stylesheets/assets/Karacornerphoto.png" />
-            </div>
+            </p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img class="img-circle" src="http://karaajc.github.io/stylesheets/assets/tryRubyImage.png">
+             <h2 class="">IDE Cheat Sheet</h2>
 
-          </div>
-     </body>
+            <p class="">One of the most important thing in coding is to experiment with your code. an IDE is a perfect space to do just that...</p>
+            <p class=""><a class="btn btn-default" href="#">Learn More »</a>
+
+            </p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img class="img-circle" src="assets/pensiveKaraImage.png">
+             <h2 class="">Stereotype Threat</h2>
+
+            <p class="">Part of what makes DBC great is their commitment to foster emotionally-intelligent programmers... </p>
+            <p class=""><a class="btn btn-default" href="#">Read About It »</a>
+
+                </p>
+        </div>
+    </div>
+    <!-- /.row -->
+    <hr class="featurette-divider">
+    <!-- Add the rest of the blog posts-->
+    <div class="container">
+  <div class="row">
+<div class="col-md-8">
+
+            <!-- heading -->
+            <h1 id="blog_posts">Latest Posts</h1>
+
+            <!-- list of posts -->
+            <article>
+                <h2><a href="singlepost.html">Pulling this site up by it's BOOTSTRAPS</a></h2>
+
+                <div class="row">
+                    <div class="group1 col-sm-6 col-md-6">
+                        <span class="glyphicon glyphicon-folder-open"></span>  <a href="#">Projects</a>
+                          <span class="glyphicon glyphicon-bookmark"></span> <a href="#">GitItGurl</a>,
+                        <a href="#">NerdLife</a>, <a href="#">Bootstrap</a>
+                    </div>
+                    <div class="group2 col-sm-6 col-md-6">
+                        <span class="glyphicon glyphicon-pencil"></span> <a href="singlepost.html#comments">0 Comments</a>
+                          <span class="glyphicon glyphicon-time"></span> December 8, 2014 6:05 PM
+                    </div>
+                </div>
+
+                <hr>
+
+                <img src="http://karaajc.github.io/stylesheets/assets/BeforeAfterSites.png" class="img-responsive">
+
+                <br>
+
+                <p class="lead">Building a website is HARD work! But it's also very rewarding.. </p>
+
+                <p>I started my last week knowing that putting all the feedback I've recieved into my site was going to be quite the feat. Having a visual site was very important to me, and my colleagues/friends/etc. so I started there. Then, I looked at how Bootstrap works, and watched a few videos on how to get started. Upon further research I found a lot of great resources to understand how customizeable Bootstrap is. I used a tool called Bootply to modify my HTML and CSS together with a live preview to understand what I was doing.</p>
+                <p>It was truly nerve-wrecking to make this drastic a change to my site repo. I was really worried it was going to loose all the work I had done. What I did in addition to making a copy of my original site, was to nest the old site in a folder, so that I can still refer to the blogposts as I update my site.
+                <p>My next steps will be to understand how Jekyll works and utilize it's paging features to continue to keep my blog updated.</p>
+
+                <p class="text-right">
+                    <a href="#">
+                        continue reading...
+                    </a>
+                </p>
+
+                <hr>
+
+            </article>
+            <article>
+            ...
+            </article>
+
+            <!-- pager -->
+            <ul class="pager">
+                <li class="previous">
+                    <a href="#">← Older</a>
+                </li>
+                <li class="next">
+                    <a href="#">Newer →</a>
+                </li>
+            </ul>
+        </div>
+    <div class="col-md-4">
+        <!-- Subscribe to my feed widget -->
+    <div class="well text-center">
+        <p class="lead">
+            Don't want to miss updates? Please click the below button!
+        </p>
+        <button class="btn btn-primary btn-lg">Subscribe to my feed</button>
+    </div>
+      <!-- latest posts widget -->
+ <div class="panel panel-default">
+    <div class="panel-heading">
+        <h4>Latest Posts</h4>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item"><a href="/OLDsite/blog/t6-oop-concepts.html">1. Battle One: Object-Oriented vs. Functional Programming</a></li>
+        <li class="list-group-item"><a href="/OLDsite/blog/c6-stereotype-threat.html">2. Don't be THAT girl</a></li>
+        <li class="list-group-item"><a href="/OLDsite/blog/t5-ruby-classes.html">3. Gettin' CLASSy with Sadie!</a></li>
+        <li class="list-group-item"><a href="/OLDsite/blog/c5-feedback.html">4. ASKing to win</a></li>
+        <li class="list-group-item"><a href="s/OLDsite/blog/c4-tech-issues.html">5. Git up, Stand up!</a></li>
+    </ul>
+</div>
+      <!-- categories widget -->
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4>Categories</h4>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item"><a href="#">DBC Technical Blog</a></li>
+        <li class="list-group-item"><a href="#">DBC Cultural Blog</a></li>
+        <li class="list-group-item"><a href="#">DBC Project Posts</a></li>
+        <li class="list-group-item"><a href="#">Personal Posts</a></li>
+    </ul>
+</div>
+      <!-- recent comments widget -->
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4>Recent Comments</h4>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item"><a href="#">Nice job with tr, but by hard coding the string conversion what about changing the cipher from 4 to 10 characters? - <em>Jessie</em></a></li>
+        <li class="list-group-item"><a href="#">oh no, I think the fixed header and footer are blocking the blog post - <em>Jessie</em></a></li>
+        <li class="list-group-item"><a href="#">Great explanations of the box model! It was very fun to read. Some of your site elements covered your blog content though. - <em>James</em></a></li>
+        <li class="list-group-item"><a href="#">That String#tr method is the most ridiculous method I've seen in Ruby so far. Super cool solution. Nice job! - <em>Matthew</em></a></li>
+    </ul>
+</div>
+
+    <!-- Tags widgets -->
+      <div class="panel panel-default">
+    <div class="panel-heading">
+        <h4>Tags</h4>
+    </div>
+    <div class="panel-body">
+        <ul class="list-inline">
+            <li><a href="#">GitItGurl</a></li>
+            <li><a href="#">NerdLife</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">Ruby</a></li>
+            <li><a href="#">Javascript</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Object-Oriented-Design</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Frameworks</a></li>
+            <li><a href="#">Pair-Programming</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    <hr class="featurette-divider">
+    <!-- FOOTER -->
+    <footer>
+        <div class="row" id="socialBtns">
+            <a href="http://www.github.com/karaAJC"><img src="assets/00000-glossy-black-3d-button-icon-github.png"></a> |
+            <a href="http://www.twitter.com/karaAJC"><img src="assets/060608-glossy-black-3d-button-icon-social-media-logos-new-twitter-bird.png"></a> |
+            <a href="http://plus.google.com/+KaraCarrell/about/p/pub"><img src="assets/080210-glossy-black-3d-button-icon-social-media-logos-googleplus.png"></a> |
+            <a href="mailto:KaraAJC@Gmail.com"><img src="assets/099109-glossy-black-3d-button-icon-social-media-logos-mail-square.png"></a> |
+            <a href="http://www.linkedin.com/in/karaajc"><img src="assets/099107-glossy-black-3d-button-icon-social-media-logos-linkedin-logo-square2.png"></a> |
+            <a href="tel:7733828220"><img src="assets/080364-glossy-black-3d-button-icon-business-phone-solid.png"></a>
+        </div>
+        <p class="pull-right"><a href="#" class="">Back to top</a>
+        </p>
+        <p class="text-info">This Bootstrap layout is compliments of Bootply. · <a href="http://www.bootply.com/62603" class="">Edit on Bootply.com</a>
+
+        </p>
+    </footer>
+</div>
+        <!-- /.container -->
+<!-- /.container -->
+
+	<!-- Jquery and Bootstrap Script files -->
+	<script src="lib/jquery-2.0.3.min.js"></script>
+	<script src="lib/bootstrap-3.0.3/js/bootstrap.min.js"></script>
+</body>
 </html>

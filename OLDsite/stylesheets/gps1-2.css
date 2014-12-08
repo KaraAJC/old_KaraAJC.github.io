@@ -1,0 +1,36 @@
+
+          #container{
+            background-color: #a2a2a2;
+            width: 100%;
+            height: 100%;
+          }
+          #header{
+            background-color: grey;
+            font-family: sans-serif;
+            text-align: center;
+            padding-bottom: 50px;
+            padding-top: 50px;
+          }
+          #header h1{
+            margin-bottom: -20px;
+            color: #7f002a;
+          }
+
+          #content{
+            padding: 50px 50px 50px 50px;
+            margin-left: 100px;
+            margin-right: 100px;
+            font-family: monospace;
+            font-size: 16px;
+          }
+          #content li{
+            padding: 5px;
+          }
+          #content ol{
+            list-style-position: inside;
+          }
+          #content img{
+            width: 80%;
+            height: 80%;
+            margin-left: 10%;
+          }
