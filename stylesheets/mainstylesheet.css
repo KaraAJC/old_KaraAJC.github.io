@@ -1,4 +1,4 @@
-@font-face { font-family: Ostrich Sans Inline; src: url('../stylesheets/assets/ostrich-sans-inline/ostrich_Sans_inline-regular.otf');
+@font-face { font-family: Ostrich Sans Inline; src: url('assets/ostrich-sans-inline/Ostrich_Sans_Inline-regular.otf');
 }
 
 body {
@@ -42,7 +42,7 @@ a:active {
 }
 
 #topNav {
-  font-family: Ostrich Sans inline;
+  font-family: Ostrich Sans Inline;
   float: right;
   display: inline-block;
   width: 80%;
@@ -50,13 +50,13 @@ a:active {
   border-right: 5px solid black;
   border-top-right-radius: 10px;
   margin-right: 25px;
-  padding: 10px 20px 40px 0px;
+  padding: 10px 20px 20px 0px;
   font-size: 12px;
   text-align: right;
 }
 
 #topNav a {
-  font-size: 60px;
+  font-size: 40px;
   font-style: normal;
   text-align: initial;
   padding: 7px;
@@ -83,7 +83,7 @@ a:active {
 }
 
 #leftSidebar h3 {
-    font-family: ostrich sans inline;
+    font-family: Ostrich Sans Inline;
     color: #6D2B41;
     font-size: 30px;
     margin-top: 0px;
@@ -127,7 +127,7 @@ a:active {
     width: 42%;
     display: inline-block;
     font-size: 12px;
-    font-family: Ostrich Sans inline;
+    font-family: Ostrich Sans Inline;
 }
 
 #socialButtons img {
@@ -139,8 +139,8 @@ a:active {
   width: 39%;
   display: inline-block;
   text-align: right;
-  font-family: Ostrich Sans inline;
-  font-size: 40px;
+  font-family: Ostrich Sans Inline;
+  font-size: 20px;
   margin-bottom: 0px;
 }
 
@@ -155,6 +155,6 @@ a:active {
 }
 
 #karaPhoto img {
-  width: 225px;
+  width: 100px;
   Float: right;
 }
