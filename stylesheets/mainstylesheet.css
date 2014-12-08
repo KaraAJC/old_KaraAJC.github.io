@@ -136,11 +136,11 @@ a:active {
 }
 
 #aboutMeBlurb {
-  width: 39%;
+  width: 45%;
   display: inline-block;
   text-align: right;
   font-family: Ostrich Sans Inline;
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 0px;
 }
 
@@ -155,6 +155,6 @@ a:active {
 }
 
 #karaPhoto img {
-  width: 100px;
+  width: 125px;
   Float: right;
 }
