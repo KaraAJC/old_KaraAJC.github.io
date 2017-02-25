@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+     <head>
+          <title>Git It Gurl Blog</title>
+
+          <link rel="stylesheet" type="text/css" href="../stylesheets/mainstylesheet.css"/>
+
+          <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+          <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css"/>
+     </head>
+
+     <body>
+          <div id="topContainer">
+               <div id="logobox">
+                    <a href="index.html"><img src="../stylesheets/assets/gititgurlLogo.png"></img></a>
+               </div>
+
+               <div id="topNav">
+                    <h1 id="slogan"> #Winning at Nerdery, DevBootcamp Phase Zero and Beyond!</h1>
+
+                    <a class="nav" href="../about.html">About</a>
+                    <a class="nav" href="index.html">Blog</a>
+                    <a class="nav" href="../projects.html">Projects</a>
+                    <a class="nav" href="../support.html">Support</a>
+                    <a class="nav" href="../contact.html">Contact</a>
+               </div>
+          </div>
+
+          <div id="midContainer">
+               <div id="leftSidebar">
+                    <h3>Blog Posts</h3>
+
+                    <ul>
+                         <li> <a href="new-c1-chefs-kitchen.html">Living in the Kitchen</a></li>
+                         <li> <a href="new-t1-git-blog.html">Git It, Girl!</a></li>
+                         <li> <a href="t2-css-design.html">The Kara Element</a></li>
+                         <li> <a href="t3-arrays-hashes.html">Value & Order: SCU</a></li>
+                         <li> <a href="c3_thinking-style.html">Brain Flex Zone</a></li>
+                         <li> <a href="t4-enumerable-methods.html">the Cycle Method</a></li>
+                         <li> <a href="c4-tech-issues.html">Git up, Stand up!</a></li>
+                         <li> <a href="c5-feedback.html">ASKing to win</a></li>
+                         <li> <a href="t5-ruby-classes.html">Gettin' CLASSy with Sadie!</a></li>
+                         <li> <a href="c6-stereotype-threat.html">Don't be THAT girl</a></li>
+                         <li> <a href="t6-oop-concepts.html">Battle One: Object-Oriented vs. Functional Programming</a></li>
+                         <li> <a href="c7-values.html">The GitItGurl Judo Chop!</a></li>
+                         <li> <a href="t7-JavaScript.html">Battle Two: Ruby Vs Javascript</a></li>
+                         <li> <a href="c8-conflict.html">Conflict</a></li>
+                         <li> <a href="t8-tech.html">Computer Brains</a></li>
+
+                    </ul>
+               </div>
+
+               <div id="mainSpace">
+                    <div id="blogContainer">
+                        <div id="blogHeader">
+                            <div id="blogTitle">
+                                Value & Order: Special Collections Unit
+                            </div>
+
+                            <div id="blogCategories">
+                                Technical Blog Post
+                            </div>
+                            <div id="oneLiner">
+                                Understanding Hashes and Arrays in Ruby
+                            </div>
+
+                            <div id="blogDate">
+                                October 26, 2014
+                            </div>
+
+                            <div id="blogPost">
+                                <h3> In the Ruby Programming Language, the code is represented by two separate yet equally important collections: the Hash, which pair Keys with Values; and the Array, which orders items from zero. These are their stories.</h3>
+                                <h5>Dun Dun DUN!!</h5>
+                                <p>This week we got into Ruby; a programming language that we will primarily be using during Dev Bootcamp. It's quite a feat to get into, but a lot of the features of the language make sense when you spend time playing around with it.</p>
+                                <p>Two key components we learned were called Hashes and Arrays. These are two very similar, but distinct ways of collecting information using Ruby.This post will go over each, and attempt to clarify why you would use them.</p>
+                                <p>The Array is an ordered index of any type of items (be it an integer, some text, or a number with a period, which in ruby is called a float). It is typically denoted using [brackets] and each item is separated by commas.</p>
+                                  <p>i.e. cool_people = ["aneliesse", "karla", "celso", "kristina", "jessica"]</p>
+                                <p>The Hash is another kind of collection of items that stresses the connection between a key, and it's value. Hashes can also take on any type of item, but it's paired inside {curly brackets} with another item using "=>"</p>
+                                  <p>i.e.  people_i_know = { "aneliesse" => "family", "celso" => "bff", "karla" => "family" , "kristina" => "boo"}</p>
+                                <p>Even though we are collecting information in both, there are instances when an array is better to use than a hash, and vice versa.
+                                <p>Let's say you're a Night club owner, and you were fixin' to be the hottest night spot this side of the Mississippi, so you wanted to build a program to help you out. Perhaps you wanted to make some saturday night specials and you need to collect and use information about your patrons to do so.</p>
+                                <p> You decide you'd like to give the first 50 people in the door on a saturday night a free shot of whiskey! As each person comes through the door, you take their name, and you give them a shot (Don't worry officers, they're all legal drinking age). In Ruby, you'd want to use an ARRAY to collect this information. Why? because:
+                                <ul>
+                                  <li>An Array prioritizes the order in which you enter information. so as you add each person's name to your array, it is counting towards 50. NOTE: in ruby, and in coding in general. when you're counting items in an array, you start with ZERO and go up from there. so the first person that comes in the door is person ZERO, not person ONE.</li>
+                                </ul>
+                                <p>A few weeks go by, and you're realizing  you've got some regulars that are buying their OWN shots! you want to reward them! so you decide your next special will be to give your regulars VIP treatment! Whenever they show up at the club they get their own table, and a dedicated server! Mira Que Fancy!</p>
+                                <p>In ruby, you'd want to use a HASH to collect this information. Why? because:
+                                <ul>
+                                  <li>A Hash doesn't worry about the order your information is put in, only the value you give it. So, your regular <a href="http://www.crlcrrll.com/">"Crl Crrll"</a> comes in, and he's the 9424th person to come in? Doesn't matter, HE'S a VIP and you'll treat him as such! Hash will also let you call the values and give you a list, regardless of where the items are in the Hash.</li>
+                                </ul>
+                                <h3>Starting to make sense?</h3>
+                                <p>To summarize, Hashes and Arrays are wonderful ways to collect and manipulate information within ruby, but knowing what's most important to you, between value and order, will help you decide which path to take.
+
+
+                            </div>
+
+                            <div id="tags">Tags
+                                <p>array, hash, Law & Order, Crl Crrll, cake, Ruby, nerdlife, gititgurl #DBCArrayHash </p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+               <div id="quoteSpace">
+                    <p>Have you seen my WOOOOOOT Wall? <a href="https://www.facebook.com/YSPignitechlab">Check it out!</a></p>
+               </div>
+          </div>
+
+          <div id="bottomContainer">
+               <div id="socialButtons">
+                    <a href="http://www.twitter.com/karaAJC"><img src="../stylesheets/assets/new-twitter-bird.png" />Tweet</a>
+                    <a href="http://www.about.me/karaAJC"><img src="../stylesheets/assets/099089-glossy-black-3d-button-icon-social-media-logos-favorites-square.png" />Like</a>
+                    <a href="http://plus.google.com/+KaraCarrell/about/p/pub"><img src="../stylesheets/assets/googleplus.png" />Plus</a>
+                    <a href="http://www.linkedin.com/in/karaajc"><img src="../stylesheets/assets/099107-glossy-black-3d-button-icon-social-media-logos-linkedin-logo-square2.png" />Link</a>
+                    <a href="mailto:KaraAJC@Gmail.com"><img src="../stylesheets/assets/099110-glossy-black-3d-button-icon-social-media-logos-mail.png" />Email</a>
+                    <a href="tel:7733828220"><img src="../stylesheets/assets/080364-glossy-black-3d-button-icon-business-phone-solid.png" />Call</a>
+               </div>
+
+               <div id="aboutMeBlurb">
+                    <p>Hi, I'm <span>Kara Carrell<span></p>
+                    <p>Idea Fox, Activist, Dev Bootcamp Ninja, and QPOC Cutie! Welcome to my site!</p>
+               </div>
+
+               <div id="karaPhoto">
+                    <img src="../stylesheets/assets/Karacornerphoto.png" />
+               </div>
+
+          </div>
+     </body>
+</html>

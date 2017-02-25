@@ -1,0 +1,71 @@
+
+
+#blogContainer{
+   width: 90%;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+
+#blogHeader {
+    width: 100%;
+}
+
+#blogTitle {
+    font-size: 40px;
+    color: #6D2B41;
+    float: left;
+}
+
+#oneLiner {
+    font-size: 18px;
+    font-style: italic;
+    color: #3F9C0B;
+    float: left;
+    width: 100%;
+}
+
+#blogDate {
+    font-size: 12px;
+    float: left;
+    width: 100%;
+}
+
+#blogCategories {
+    font-size: 22px;
+    float: right;
+    color: #098083;
+}
+
+#blogPost {
+    clear: both;
+    font-size: 18px
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+#blogPost p {
+    text-indent: 50px;
+    text-align: justify;
+}
+
+
+#blogPost img {
+    width: 100%;
+    overflow: hidden;
+}
+
+#blogPost h4 {
+   font-style: italic;
+    color: #6D2B41;
+}
+#tags {
+    font-size: 14px;
+    font-style: bold;
+}
+#tags p {
+    font-size: 12px;
+    font-style: italic;
+    color: #098083;
+}

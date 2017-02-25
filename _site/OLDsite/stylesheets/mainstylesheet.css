@@ -1,0 +1,192 @@
+@font-face { font-family: Ostrich Sans Inline; src: url('assets/ostrich-sans-inline/Ostrich_Sans_Inline-regular.otf');
+}
+
+body {
+  background: white;
+  font-family: "Lato";
+}
+
+a {
+  color: #098083;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #3F9C0B;
+}
+
+a:active {
+  color: #3F9C0B;
+  text-decoration-style: double;
+}
+
+
+/*HEADER ELEMENTS*/
+
+#topContainer {
+  position: fixed;
+  background: white;
+  width: 100%;
+  border-top: 40px white;
+}
+
+#logobox {
+  float: left;
+  display: inline-block;
+  width: 25%;
+  position: fixed;
+}
+
+#logobox img {
+  width: 200px;
+}
+
+#topNav {
+  font-family: Ostrich Sans Inline;
+  float: right;
+  display: inline-block;
+  width: 80%;
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-top-right-radius: 10px;
+  margin-right: 25px;
+  padding: 10px 20px 20px 0px;
+  font-size: 12px;
+  text-align: right;
+}
+
+#topNav a {
+  font-size: 40px;
+  font-style: normal;
+  text-align: initial;
+  padding: 7px;
+}
+
+#topNav h1 {
+  color: #6D2B41;
+}
+
+/* Mid Section container elements*/
+
+#midContainer {
+  width: 100%;
+  padding-top: 250px;
+  }
+
+#leftSidebar {
+    border-right: 5px solid black;
+    width: 160px;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+#leftSidebar h3 {
+    font-family: Ostrich Sans Inline;
+    color: #6D2B41;
+    font-size: 30px;
+    margin-top: 0px;
+
+}
+
+#leftSidebar li {
+  list-style-image: url('assets/GrassFlowerIcon.png');
+
+}
+
+#mainSpace {
+    margin: 10px;
+    padding: 20px;
+    padding-bottom: 300px;
+    text-align: justify;
+    width: 65%;
+    display: inline-block;
+}
+/* CAROUSEL ON INDEX PAGE */
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+#quoteSpace {
+    display: inline-block;
+    width: 10%;
+    float: right;
+    text-align: center;
+    font-style: italic;
+    color: #3f9c0b;
+}
+
+/*bottom Container Elements*/
+
+#bottomContainer {
+    background: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    clear: both;
+}
+
+#socialButtons {
+    width: 42%;
+    display: inline-block;
+    font-size: 12px;
+    font-family: Ostrich Sans Inline;
+}
+
+#socialButtons img {
+  width: 50px;
+  text-color: #3f9c0b;
+}
+
+#aboutMeBlurb {
+  width: 45%;
+  display: inline-block;
+  text-align: right;
+  font-family: Ostrich Sans Inline;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+#aboutMeBlurb span {
+  color: #6D2B41;
+}
+
+#karaPhoto {
+  display: inline-block;
+  width: 10%;
+  float: right;
+}
+
+#karaPhoto img {
+  width: 125px;
+  Float: right;
+}

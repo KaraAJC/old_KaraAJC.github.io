@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+     <head>
+          <title>Git It Gurl Blog</title>
+
+          <link rel="stylesheet" type="text/css" href="../stylesheets/mainstylesheet.css"/>
+
+          <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+          <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css"/>
+     </head>
+
+     <body>
+          <div id="topContainer">
+               <div id="logobox">
+                    <a href="index.html"><img src="../stylesheets/assets/gititgurlLogo.png"></img></a>
+               </div>
+
+               <div id="topNav">
+                    <h1 id="slogan"> #Winning at Nerdery, DevBootcamp Phase Zero and Beyond!</h1>
+
+                    <a class="nav" href="../about.html">About</a>
+                    <a class="nav" href="index.html">Blog</a>
+                    <a class="nav" href="../projects.html">Projects</a>
+                    <a class="nav" href="../support.html">Support</a>
+                    <a class="nav" href="../contact.html">Contact</a>
+               </div>
+          </div>
+
+          <div id="midContainer">
+               <div id="leftSidebar">
+                    <h3>Blog Posts</h3>
+
+                    <ul>
+                         <li> <a href="new-c1-chefs-kitchen.html">Living in the Kitchen</a></li>
+                         <li> <a href="new-t1-git-blog.html">Git It, Girl!</a></li>
+                         <li> <a href="t2-css-design.html">The Kara Element</a></li>
+                         <li> <a href="t3-arrays-hashes.html">Value & Order: SCU</a></li>
+                         <li> <a href="c3_thinking-style.html">Brain Flex Zone</a></li>
+                         <li> <a href="t4-enumerable-methods.html">the Cycle Method</a></li>
+                         <li> <a href="c4-tech-issues.html">Git up, Stand up!</a></li>
+                         <li> <a href="c5-feedback.html">ASKing to win</a></li>
+                         <li> <a href="t5-ruby-classes.html">Gettin' CLASSy with Sadie!</a></li>
+                         <li> <a href="c6-stereotype-threat.html">Don't be THAT girl</a></li>
+                         <li> <a href="t6-oop-concepts.html">Battle One: Object-Oriented vs. Functional Programming</a></li>
+                         <li> <a href="c7-values.html">The GitItGurl Judo Chop!</a></li>
+                         <li> <a href="t7-JavaScript.html">Battle Two: Ruby Vs Javascript</a></li>
+                         <li> <a href="c8-conflict.html">Conflict</a></li>
+                         <li> <a href="t8-tech.html">Computer Brains</a></li>
+
+
+                    </ul>
+               </div>
+
+               <div id="mainSpace">
+                    <div id="blogContainer">
+                        <div id="blogHeader">
+                            <div id="blogTitle">
+                                Gettin' CLASSy with Sadie!
+                            </div>
+
+                            <div id="blogCategories">
+                                Technical Blog Post
+                            </div>
+                            <div id="oneLiner">
+                                Understandng Classes in Ruby, starring Sadie: cutest dog on earth
+                            </div>
+
+                            <div id="blogDate">
+                                November 8, 2014
+                            </div>
+
+                            <div id="blogPost">
+                                <h3>Everyone, meet Sadie. <img src="../stylesheets/assets/sadieSelfie.jpg"sadie image/> Sadie is the most loveable dog on the entire planet, and is going to help me explain what Ruby Classes are to you! </h3>
+
+                                <p>A Class helps you define a set of methods that can be called using objects created under that class. If you consider Sadie in this case, She is a Dog. Sadie would be considered an object under the "Dog" class. For future reference, it's good to note that Sadie is also a Mammal, an Animal, and a Living Creature, so if you made a chart of all these, you'd see that there are characteristics that sadie is inheriting because she's a part of all these classes above the Dog class.</p>
+                                <p>So back to the Dog Class. Dogs all have particular characteristics, and they can do things that, for the most part, only dogs are called to do. For Example:
+                                <ul>
+                                  <li>Dogs can Bark</li>
+                                  <li>Dogs can Fetch</li>
+                                  <li>Dogs can Downward-Facing Dog-Stretch</li>
+                                </ul>
+                                In Ruby, each of these actions would be created as Methods you can call on, or command on any object within the Dog Class. i.e.
+                                  <br>class Dog<br>
+                                    def initialize<br>
+                                      @doggie_name = doggie_name<br>
+                                    end<br>
+<br>
+                                    def bark<br>
+                                      puts "woof woof"<br>
+                                    end<br>
+
+                                    def fetch(item)<br>
+                                      puts "runs after +item+"<br>
+                                      puts "brings back +item+"<br>
+                                    end<br>
+
+                                    def stretch<br>
+                                      puts "AAANNNDDD STREETTCHHHHHHH"<br>
+                                    end<br>
+<br>
+                                Just like we use commands in real-life, you can command your doggie to take an action (hopefully you've worked with your doggie to comply!) In Ruby this would look like:
+<br>
+                                sadie = Dog.new<br>
+                                sadie.bark<br>
+                                <img src="../stylesheets/assets/sadieBark.jpg" />
+
+                                sadie.fetch<br>
+                                <img src="../stylesheets/assets/sadieFetch.jpg" />
+
+                                sadie.stretch<br>
+                                <img src="../stylesheets/assets/sadieStretch.jpg" />
+
+                                Awesome, Right?<br>
+                                But, what if you asked your pet kitteh to do these things?
+<br>
+                                kitteh.bark<br>
+                                kitteh.fetch<br>
+                                kitteh.roll_over<br>
+<br>
+                                Ruby will reply with, <i>umm what? NoMethod Error!</i> Why? because you're trying to use the Dog class methods OUTSIDE of the Dog Class! kitteh is NOT a dog, so they can't use doggie methods. Sorry, friend.
+
+                              </p>
+
+                            </div>
+
+                            <div id="tags">Tags
+                                <p>Class, Sadieface, Ruby, nerdlife, gititgurl, #DBCClass </p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+               <div id="quoteSpace">
+                    <p>Have you seen my WOOOOOOT Wall? <a href="https://www.facebook.com/YSPignitechlab">Check it out!</a></p>
+               </div>
+          </div>
+
+          <div id="bottomContainer">
+               <div id="socialButtons">
+                    <a href="http://www.twitter.com/karaAJC"><img src="../stylesheets/assets/new-twitter-bird.png" />Tweet</a>
+                    <a href="http://www.about.me/karaAJC"><img src="../stylesheets/assets/099089-glossy-black-3d-button-icon-social-media-logos-favorites-square.png" />Like</a>
+                    <a href="http://plus.google.com/+KaraCarrell/about/p/pub"><img src="../stylesheets/assets/googleplus.png" />Plus</a>
+                    <a href="http://www.linkedin.com/in/karaajc"><img src="../stylesheets/assets/099107-glossy-black-3d-button-icon-social-media-logos-linkedin-logo-square2.png" />Link</a>
+                    <a href="mailto:KaraAJC@Gmail.com"><img src="../stylesheets/assets/099110-glossy-black-3d-button-icon-social-media-logos-mail.png" />Email</a>
+                    <a href="tel:7733828220"><img src="../stylesheets/assets/080364-glossy-black-3d-button-icon-business-phone-solid.png" />Call</a>
+               </div>
+
+               <div id="aboutMeBlurb">
+                    <p>Hi, I'm <span>Kara Carrell<span></p>
+                    <p>Idea Fox, Activist, Dev Bootcamp Ninja, and QPOC Cutie! Welcome to my site!</p>
+               </div>
+
+               <div id="karaPhoto">
+                    <img src="../stylesheets/assets/Karacornerphoto.png" />
+               </div>
+
+          </div>
+     </body>
+</html>
